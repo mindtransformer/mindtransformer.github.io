@@ -102,8 +102,7 @@
     .topnav-links a:hover { color: var(--c-plum); }
 
     @media (max-width: 768px) {
-      .topnav-links { gap: 0.9rem; }
-      .topnav-links a { font-size: 0.72rem; }
+      .topnav-links { display: none; }
     }
 
     /* ── Hero ── */
@@ -464,11 +463,15 @@
 
     /* ── Responsive tweaks ── */
     @media (max-width: 768px) {
-      .hero-section { padding: 6.5rem 1.2rem 3rem; }
+      .hero-section { padding: 5.5rem 1.2rem 2.5rem; }
       .abstract-card { padding: 1.8rem 1.4rem; }
       .figure-card .caption { padding: 1.1rem 1.2rem 1.3rem; }
-      .content-section { padding: 3rem 1.2rem; }
+      .content-section { padding: 2.5rem 1.2rem; }
       .results-grid { grid-template-columns: 1fr; }
+      .section-title { font-size: 1.4rem; }
+      .pub-title { font-size: 1.7rem; }
+      .hero-buttons { gap: 0.5rem; }
+      .hero-btn { font-size: 0.8rem; padding: 0.5rem 1rem; }
     }
   </style>
 </head>
